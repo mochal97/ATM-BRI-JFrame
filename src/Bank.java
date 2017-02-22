@@ -44,14 +44,20 @@ public class Bank extends javax.swing.JFrame {
         jB9 = new javax.swing.JButton();
         jB0 = new javax.swing.JButton();
         hPin = new javax.swing.JPasswordField();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setText("WELCOME ATM BANK");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(43, 11, 198, 22);
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel2.setText("Masukkan PIN Anda");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(56, 51, 165, 22);
 
         jB1.setText("1");
         jB1.addActionListener(new java.awt.event.ActionListener() {
@@ -59,6 +65,8 @@ public class Bank extends javax.swing.JFrame {
                 jB1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB1);
+        jB1.setBounds(59, 155, 45, 32);
 
         jB2.setText("2");
         jB2.addActionListener(new java.awt.event.ActionListener() {
@@ -66,6 +74,8 @@ public class Bank extends javax.swing.JFrame {
                 jB2ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB2);
+        jB2.setBounds(122, 155, 45, 32);
 
         jB3.setText("3");
         jB3.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +83,8 @@ public class Bank extends javax.swing.JFrame {
                 jB3ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB3);
+        jB3.setBounds(185, 155, 45, 32);
 
         jB4.setText("4");
         jB4.addActionListener(new java.awt.event.ActionListener() {
@@ -80,6 +92,8 @@ public class Bank extends javax.swing.JFrame {
                 jB4ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB4);
+        jB4.setBounds(59, 205, 45, 32);
 
         jB5.setText("5");
         jB5.addActionListener(new java.awt.event.ActionListener() {
@@ -87,6 +101,8 @@ public class Bank extends javax.swing.JFrame {
                 jB5ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB5);
+        jB5.setBounds(122, 205, 45, 32);
 
         jB6.setText("6");
         jB6.addActionListener(new java.awt.event.ActionListener() {
@@ -94,6 +110,8 @@ public class Bank extends javax.swing.JFrame {
                 jB6ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB6);
+        jB6.setBounds(185, 205, 45, 32);
 
         jB7.setText("7");
         jB7.addActionListener(new java.awt.event.ActionListener() {
@@ -101,6 +119,8 @@ public class Bank extends javax.swing.JFrame {
                 jB7ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB7);
+        jB7.setBounds(58, 255, 45, 32);
 
         jB8.setText("8");
         jB8.addActionListener(new java.awt.event.ActionListener() {
@@ -108,6 +128,8 @@ public class Bank extends javax.swing.JFrame {
                 jB8ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB8);
+        jB8.setBounds(121, 255, 45, 32);
 
         jB9.setText("9");
         jB9.addActionListener(new java.awt.event.ActionListener() {
@@ -115,6 +137,8 @@ public class Bank extends javax.swing.JFrame {
                 jB9ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB9);
+        jB9.setBounds(184, 255, 45, 32);
 
         jB0.setText("0");
         jB0.addActionListener(new java.awt.event.ActionListener() {
@@ -122,7 +146,10 @@ public class Bank extends javax.swing.JFrame {
                 jB0ActionPerformed(evt);
             }
         });
+        getContentPane().add(jB0);
+        jB0.setBounds(121, 305, 45, 32);
 
+        hPin.setBackground(new java.awt.Color(240, 240, 240));
         hPin.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         hPin.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         hPin.setEnabled(false);
@@ -131,76 +158,13 @@ public class Bank extends javax.swing.JFrame {
                 hPinActionPerformed(evt);
             }
         });
+        getContentPane().add(hPin);
+        hPin.setBounds(56, 79, 185, 65);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(43, 43, 43)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jB4, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jB5, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jB1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jB2, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jB3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jB6, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(13, 13, 13)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(hPin)))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel1)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jB0, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jB7, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(jB8, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGap(18, 18, 18)
-                            .addComponent(jB9, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(12, 12, 12))))
-                .addContainerGap(50, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(hPin, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jB3, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jB4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB5, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jB7, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jB9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jB0, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 290, 350);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -329,6 +293,7 @@ public class Bank extends javax.swing.JFrame {
     private javax.swing.JButton jB9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
     private void pengecekan() {
